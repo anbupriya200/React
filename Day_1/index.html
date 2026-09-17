@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>1. What is React?</h1>
+    <p>React is a JavaScript library used to build user interfaces (UI) for web applications. It was originally developed by Facebook, which is now called Meta. React helps developers create interactive websites such as login pages, dashboards, shopping websites, social media applications, and many other web applications. One of the main features of React is that it allows developers to divide a webpage into small, reusable pieces called components. React also makes it easier to update the user interface when the application's data changes.</p>
+    <hr>
+
+    <h1>2. Is React a library or framework?</h1>
+    <p>React is a JavaScript library, not a full framework. A library mainly provides specific functionality that developers can use in their applications. React mainly focuses on creating and managing the user interface. For example, React helps you create buttons, forms, cards, navigation bars, and other UI elements. For other features such as routing, state management, or API communication, developers can use additional libraries or tools. This gives developers more flexibility in choosing the tools they need for their project.</p>
+    <hr>
+
+    <h1>3. What is a component?</h1>
+    <p>A component is a reusable and independent part of a React application's user interface. A large webpage can be divided into smaller parts, and each part can be created as a component.
+         For example, a website can have components such as a Navbar, LoginForm, Button, ProductCard, Sidebar, and Footer. A React component usually contains the code that describes how that particular part of the UI should look and behave.
+          Components can also receive data and respond to user actions, which makes them useful for creating interactive applications.</p>
+    <hr>
+
+    <h1>4. Why are components important?</h1>
+    <p>Components are important because they make React applications reusable, organized, maintainable, and easier to understand. Instead of writing the same UI code again and again, developers can create one component and reuse it in multiple places.
+         For example, if a website has many product cards, we can create one ProductCard component and use it for every product. Components also make large applications easier to manage because the application can be divided into smaller files and sections. 
+         If we need to change a particular part of the application, we can usually modify its component without changing the entire application.</p>
+    <hr>
+
+    <h1>5. What is JSX?</h1>
+    <p>JSX stands for JavaScript XML and is a syntax extension commonly used with React. JSX allows developers to write HTML-like code directly inside JavaScript, which makes it easier to describe how the user interface should look. 
+        For example, we can write <h1>Hello World</h1> inside a React component. JSX may look like HTML, but it is not exactly HTML; it is syntax that React tooling transforms into JavaScript. JSX can also include JavaScript expressions inside curly braces, such as <h1>Hello {name}</h1>, which allows dynamic data to be displayed in the user interface.</p>
+    <hr>
+
+    <h1>6. What is Virtual DOM?</h1>
+    <p>The Virtual DOM is an in-memory representation of the user interface that React uses during its rendering process. It is not the actual webpage that the user sees. When something changes in a React application, such as a counter value or user information, React creates a new representation of the UI and compares it with the previous one. 
+        React can then determine which parts of the actual DOM need to be updated. This approach helps React manage UI updates efficiently instead of unnecessarily changing every part of the webpage.</p>
+    <hr>
+
+    <h1>7. What is the Real DOM?</h1>
+    <p>The Real DOM, or Document Object Model, is the actual representation of an HTML document created and maintained by the browser. 
+        When the browser loads an HTML page, it converts the HTML elements into a tree-like structure called the DOM. JavaScript can access and modify this structure using methods such as getElementById() and querySelector().
+         For example, if JavaScript changes the text of an <!h1> element, it is modifying the actual DOM, and the browser displays that change on the webpage. The Real DOM is therefore the actual structure that represents the webpage in the browser.</p>
+    <hr>
+
+    <h1>8. What is reconciliation?</h1>
+    <p>Reconciliation is the process React uses to determine what has changed in the user interface and what updates need to be made to the actual DOM. When the data or state of a component changes, React renders the component again and produces a new UI representation. 
+        React then compares the previous representation with the new one to identify the differences. For example, if a page displays Count: 10 and the value changes to Count: 11, React identifies that the count has changed and updates the necessary part of the DOM. In simple words, reconciliation means React compares the old UI with the new UI and determines what needs to be updated.</p>
+    <hr>
+    
+</body>
+</html>
