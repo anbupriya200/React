@@ -1,7 +1,13 @@
+ import Banner from "./component/Banner"
+ import { Navbar } from "./component/Navbar"
+
+ 
  const App =() => {
   return(<>
-  <div>
-    
-  </div>
+  
+    <Navbar />
+    <Banner />
+   
   </>)
  }
+ export default App

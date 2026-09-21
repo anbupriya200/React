@@ -1,0 +1,17 @@
+.head {
+  background-color: rgb(142, 197, 120);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ .link {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+ }
+
+a {
+ text-decoration: none;  
+
+ }
