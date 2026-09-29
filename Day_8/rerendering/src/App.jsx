@@ -18,16 +18,18 @@ const App = () => {
     
 
   }
-  <Text />
+   
  
   return (
 
     <>
+
     <h1>{countNumber}</h1>
     <button onClick={handleIn}>Increase</button>
     <button onClick={handleDe}>Decrease</button>
     <button onClick={handlereset}>ReSet</button>
 
+    <Text />
     </>
   )
 }
